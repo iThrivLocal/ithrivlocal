@@ -1,0 +1,222 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  width: 100%;
+  background-color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+
+a:visited {
+  color: #41C6EC;
+}
+
+a:hover {
+  color: #4D3D79;
+}
+
+/*Navigation*/
+nav {
+  position: fixed;
+  background-color: #000000;
+  height: 50px;
+  width: 100%;
+  top: 0;
+
+}
+
+nav ul {
+  position: relative;
+  display: inline;
+  float: left;
+  list-style-type: none;
+  top: 25px;
+  /*text-decoration-style: none;*/
+}
+
+nav li{
+  float: left;
+  margin-left: 15px;
+}
+
+/*logo centering*/
+
+.logo{
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 5px;
+  
+}
+
+/*search bar needs some work*/
+
+.search{
+  height: 24px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+  border: solid;
+  border-color: #6752A1;
+  border-radius: 10px;
+}
+
+.search .zipcode {
+  height: 20px;
+  width: 100px;
+  color: #ffffff;
+  position: relative;
+  bottom: 6px;
+  margin-left: 5px;
+  border: none;
+  background-color: #000000;
+}
+
+.search .searchbutton {
+  height: 20px;
+  margin-right: 5px;
+}
+
+/*sidebar*/
+
+.sidebar {
+  display: inline;
+  float: left;
+  position: fixed;
+  width: 270px;
+  height: 100%;
+  top: 51px;
+
+}
+
+.sidebar .signin {
+  height: 94px;
+  background-color: #000000
+}
+
+.signin img {
+  margin-left: 40px;
+  margin-top: 10px;
+  float: left;
+}
+.signin_text {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+/*categories*/ 
+.content {
+  height: 45px;
+  background-color: #000000;
+  margin-top: 1px;
+
+}
+
+.content img {
+  color: white;
+  display: inline;
+  margin-top: 5px;
+  margin-left: 10px;
+  height: 30px
+}
+
+.content .shiftimg {
+  position: relative;
+  left: 5px;
+}
+
+.content .shifta {
+  margin-left: 10px
+}
+.content .content_links {
+  position: relative;
+  display: inline;
+  left: 30px;
+  bottom: 10px;
+
+}
+
+.invert {
+  -webkit-filter: invert(100%); 
+  filter: invert(100%);
+}
+
+/*Main Sections*/
+
+.sections {
+  position: relative;
+  display: block;
+  margin-top: 51px;
+ margin-left: 271px;
+  
+  z-index: -30;
+
+}
+
+.sections .bar {
+  position: relative;
+  display: block;
+  margin-top:1px;
+  height: 35px;
+  background-color: #000000;
+  z-index: -30;
+}
+
+.sections h3 {
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.container1 {
+  height: 400px;
+  width: 1078px;
+  float: left;
+  background-color: #6752A2;
+  
+
+}
+
+.container2 {
+  float: left;
+  height: 400px;
+  width: auto;
+
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  
+}
+
+.group {
+  float: left;
+  display: inline;
+  margin-right: 75px;
+  margin-top: 10px;
+
+}
+
+.thumbnail {
+  margin-bottom: 25px;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.thumbnail img {
+
+
+  height: 130px;
+  width: 170px;
+}
